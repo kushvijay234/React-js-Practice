@@ -1,5 +1,6 @@
 import React from 'react'
 import CounterApp from './component/counter/counter'
+import Form from './component/counter/form'
 
 const App = () => {
 
@@ -22,6 +23,9 @@ const App = () => {
     return (
         <>
         <CounterApp />
+        <br />
+        <div> <Form /></div>
+        
         </>
     )
 }
