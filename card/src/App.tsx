@@ -1,23 +1,9 @@
 import React from 'react'
-import CounterApp from './component/counter/counter'
-import Form from './component/counter/form'
+import CounterApp from './component/counter/Counter'
+import Form from './component/counter/Form'
+import Prop from './component/prop/Prop'
 
 const App = () => {
-
-   /*  
-    interface User {
-        userName : string;
-        age: number;
-        displayName(): any;
-    }
-
-    const user: User = {
-        userName : "Vijay",
-        age : 23,
-        displayName: function () {
-            console.log(this.userName, this.age)
-        }
-    } */
 
 
     return (
@@ -25,7 +11,7 @@ const App = () => {
         <CounterApp />
         <br />
         <div> <Form /></div>
-        
+        <Prop />
         </>
     )
 }
