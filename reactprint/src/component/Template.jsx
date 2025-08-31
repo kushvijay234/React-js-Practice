@@ -1,6 +1,8 @@
 import React from 'react'
 
-const Template = React.forwardRef((props, ref) => (
+const Template = React.forwardRef((props, ref) => {
+  return (
+    <>
   <div ref={ref} className="bg-white p-6 border rounded shadow">
     <h1 className="text-2xl font-bold mb-4">Invoice</h1>
 
@@ -20,7 +22,7 @@ const Template = React.forwardRef((props, ref) => (
       <p>Amount: ₹25,000</p>
     </div>
   </div>
-));
-
+  </>
+)});
 
 export default Template;
